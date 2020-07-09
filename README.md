@@ -7,7 +7,7 @@
    [Cheng Sun and Fang Kong, A Transition-based Framework for Chinese Discourse Structure Parsing.](http://jcip.cipsc.org.cn/EN/abstract/abstract2681.shtml)
 
 
-<b>-- 工程结构</b>
+<b>-- Project</b>
 ```
 cdtparser
    |- berkeleyparser: 第三方句法解析器 berkeley parser
@@ -30,12 +30,12 @@ cdtparser
 ```
 
 
-<b>-- 安装需求</b>
+<b>-- Installation</b>
 * Java 需要在系统PATH环境变量中
 * requirements.txt 依赖需要安装好
 
 
-<b>-- 使用方法</b>
+<b>-- Usage</b>
 * 命令行使用
 
 假设用户当前目录如下：
@@ -56,7 +56,7 @@ pwd
 $ python3 -m cdtparser.parse [--schema 解析策略  --encoding 编码  --jobs 进程数] -source raw -save parse
 ```
 
-* API 使用
+* API
 
 参阅 `api.py` 中的方法说明
 
