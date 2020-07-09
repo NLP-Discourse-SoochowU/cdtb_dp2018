@@ -1,8 +1,13 @@
 ## Toolkit for CDT-Styled Chinese Discourse Parsing
 
-This project contains basic parsing, evaluation and visualization tools for "Connective Driven Discourse Treebank".
+<b>-- Reference</b>
+   This project contains basic parsing, evaluation and visualization tools for "Connective Driven Discourse Treebank".
+   Please read the following paper for more technical details
 
-## 工程结构
+   [Cheng Sun and Fang Kong, A Transition-based Framework for Chinese Discourse Structure Parsing.](http://jcip.cipsc.org.cn/EN/abstract/abstract2681.shtml)
+
+
+<b>-- 工程结构</b>
 ```
 cdtparser
    |- berkeleyparser: 第三方句法解析器 berkeley parser
@@ -25,11 +30,12 @@ cdtparser
 ```
 
 
-## 安装需求
+<b>-- 安装需求</b>
 * Java 需要在系统PATH环境变量中
 * requirements.txt 依赖需要安装好
 
-## 使用方法
+
+<b>-- 使用方法</b>
 * 命令行使用
 
 假设用户当前目录如下：
@@ -63,4 +69,13 @@ discourse = cdtparser.raw2discourse("123", "我爱北京天安门，天安门上
 discourse.tree().draw()
 ```
 
-Copyright <2018> <The Natural Language Processing (NLP) Lab at Soochow University> <MIT License>
+<b>-- License</b>
+```
+   Copyright (c) 2019, Soochow University NLP research group. All rights reserved.
+   Redistribution and use in source and binary forms, with or without modification, are permitted provided that
+   the following conditions are met:
+   1. Redistributions of source code must retain the above copyright notice, this list of conditions and the
+      following disclaimer.
+   2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the
+      following disclaimer in the documentation and/or other materials provided with the distribution.
+```
